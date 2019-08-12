@@ -6,13 +6,15 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-.label{
-	border: 1px solid;
-}
-
 [epub|type~="z3998:letter"] header,
 .newspaper header{
 	font-variant: small-caps;
+}
+
+[epub|type~="z3998:letter"] footer,
+.newspaper footer{
+	margin-top: 1em;
+	text-align: right;
 }
 
 .signature{
@@ -32,3 +34,19 @@ span[epub|type~="subtitle"]{
 	padding-bottom: 1em;
 }
 
+/* If the image is meant to be inline with the text, use this selector... */
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+/* In all cases, also include the below styles */
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}

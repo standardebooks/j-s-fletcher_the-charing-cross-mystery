@@ -34,9 +34,13 @@ span[epub|type~="subtitle"]{
 	padding-bottom: 1em;
 }
 
-/* If the image is meant to be inline with the text, use this selector... */
-figure{
-	margin: 1em auto;
+/* If the image is meant to be on its own page, use this selector... */
+figure.full-page{
+	margin: 0;
+	max-height: 100%;
+	page-break-before: always;
+	page-break-after: always;
+	page-break-inside: avoid;
 	text-align: center;
 }
 

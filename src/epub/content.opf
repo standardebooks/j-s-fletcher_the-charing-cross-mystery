@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/j-s-fletcher/the-charing-cross-mystery</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2019-08-18T22:19:36Z</dc:date>
+		<meta property="dcterms:modified">2019-08-18T22:19:36Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -42,17 +42,17 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">A young lawyer witnesses a suspicious death on late-night train and investigates what turns out to be a murder.</dc:description>
+		<dc:description id="description">A young lawyer witnesses a suspicious death on a late-night train and investigates what turns out to be a murder.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Charing Cross Mystery&lt;/i&gt; follows a young lawyer, Hetherwick, who happens to be alongside a former police inspector who dies suddenly on the train in front of him. The other man in the carriage runs off at the next stop and vanishes. Hetherwick takes it upon himself to investigate what turns out to be a murder.&lt;/p&gt;
-			&lt;p&gt;J.S. Fletcher originally wrote the story in 1922 for a weekly magazine who called it &lt;i&gt;Black Money&lt;/i&gt;. It was published in a single volume in 1923 as &lt;i&gt;The Charing Cross Mystery&lt;/i&gt; and immediately had to be reprinted because of its popularity.&lt;/p&gt;
-			&lt;p&gt;The novel is a classic Edwardian detective novel where he plot twists and turns as more and more people become involved in the investigation, both as investigators and as suspects.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Charing Cross Mystery&lt;/i&gt; follows a young lawyer, Hetherwick, who happens to be on a train alongside a former police inspector who dies suddenly in front of him. The other man in the carriage runs off at the next stop and vanishes. Hetherwick takes it upon himself to investigate what turns out to be a murder.&lt;/p&gt;
+			&lt;p&gt;J. S. Fletcher originally wrote the story in 1922 for a weekly magazine, who called it &lt;i&gt;Black Money&lt;/i&gt;. It was published in a single volume in 1923 as &lt;i&gt;The Charing Cross Mystery&lt;/i&gt; and immediately had to be reprinted because of its popularity.&lt;/p&gt;
+			&lt;p&gt;The novel is a classic Edwardian detective novel where the plot twists and turns as more and more people become involved in the investigation, both as investigators and as suspects.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/59893</dc:source>
 		<dc:source>https://books.google.co.uk/books?id=oPBaAAAAcAAJ</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">75492</meta>
+		<meta property="se:reading-ease.flesch">74.69</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-s-fletcher_the-charing-cross-mystery</meta>
 		<dc:creator id="author">J. S. Fletcher</dc:creator>
 		<meta property="file-as" refines="#author">Fletcher, J. S.</meta>
@@ -78,6 +78,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>

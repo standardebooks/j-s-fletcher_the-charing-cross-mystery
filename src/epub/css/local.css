@@ -25,13 +25,17 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
-#chapter-5 blockquote:nth-of-type(1) td:nth-of-type(1){
+#chapter-5 blockquote td:first-child{
 	padding-right: 1em;
 }
 
-#chapter-5 blockquote:nth-of-type(1) tr:nth-of-type(3) td:nth-of-type(2){
+#chapter-5 blockquote tr:last-child td + td{
 	border-top: 1px solid;
 	padding-bottom: 1em;
+}
+
+#chapter-5 blockquote td + td{
+	font-variant-numeric: tabular-nums;
 }
 
 /* If the image is meant to be on its own page, use this selector... */

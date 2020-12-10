@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="loi.xhtml">
-		<ignore>
-			<code>t-033</code>
-			<reason>The dash has a space following it, as a transcription of the image.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>

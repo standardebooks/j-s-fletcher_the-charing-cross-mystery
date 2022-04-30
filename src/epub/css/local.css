@@ -1,22 +1,20 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-[epub|type~="z3998:letter"] header,
-.newspaper header{
+header{
 	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
 }
 
-[epub|type~="z3998:letter"] footer,
-.newspaper footer{
+footer{
 	margin-top: 1em;
 	text-align: right;
 }
 
+#chapter-1 blockquote,
+#chapter-2 blockquote,
 [epub|type~="z3998:signature"]{
-	font-variant: small-caps;
-}
-
-.inscription{
 	font-variant: small-caps;
 }
 

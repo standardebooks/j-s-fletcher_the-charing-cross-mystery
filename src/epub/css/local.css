@@ -18,6 +18,10 @@ footer{
 	font-variant: small-caps;
 }
 
+.telegram{
+	font-variant: all-small-caps;
+}
+
 #chapter-5 blockquote td:first-child{
 	padding-right: 1em;
 }

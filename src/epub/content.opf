@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/j-s-fletcher/the-charing-cross-mystery</dc:identifier>
 		<dc:date>2019-08-18T22:19:36Z</dc:date>
@@ -45,12 +45,12 @@
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Mystery</meta>
-		<dc:description id="description">A young lawyer witnesses a suspicious death on a late-night train and investigates what turns out to be a murder.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A young lawyer witnesses a suspicious death on a late-night train and investigates what turns out to be a murder.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Charing Cross Mystery&lt;/i&gt; follows a young lawyer, Hetherwick, who happens to be on a train alongside a former police inspector who dies suddenly in front of him. The other man in the carriage runs off at the next stop and vanishes. Hetherwick takes it upon himself to investigate what turns out to be a murder.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/j-s-fletcher"&gt;&lt;abbr&gt;J. S.&lt;/abbr&gt; Fletcher&lt;/a&gt; originally wrote the story in 1922 for a weekly magazine, who called it &lt;i&gt;Black Money&lt;/i&gt;. It was published in a single volume in 1923 as &lt;i&gt;The Charing Cross Mystery&lt;/i&gt; and immediately had to be reprinted because of its popularity.&lt;/p&gt;
 			&lt;p&gt;The novel is a classic Edwardian detective novel where the plot twists and turns as more and more people become involved in the investigation, both as investigators and as suspects.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/59893</dc:source>
 		<dc:source>https://books.google.com/books?id=oPBaAAAAcAAJ</dc:source>
